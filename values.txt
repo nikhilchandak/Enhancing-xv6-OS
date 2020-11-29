@@ -1,0 +1,305 @@
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Round Robin (defautlt)
+Total ticks till now: 141
+Process with pid = 3 has runtime = 1 and number_of_runs = 8 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Round Robin (defautlt)
+Total ticks till now: 3278
+Process with pid = 3 has runtime = 8 and number_of_runs = 25 
+
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running First come first serve scheduler
+Total ticks till now: 302
+Process with pid = 3 has runtime = 3 and number_of_runs = 7 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running First come first serve scheduler
+Total ticks till now: 4667
+Process with pid = 3 has runtime = 13 and number_of_runs = 17 
+
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Multi-level feedback queue scheduler
+Total ticks till now: 269
+Process with pid = 3 has runtime = 2 and number_of_runs = 8 
+Queue no=1
+The ticks received in each queue are:
+0: 2
+1: 0
+2: 0
+3: 0
+4: 0
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Multi-level feedback queue scheduler
+Total ticks till now: 3369
+Process with pid = 3 has runtime = 14 and number_of_runs = 20 
+Queue no=3
+The ticks received in each queue are:
+0: 2
+1: 2
+2: 4
+3: 7
+4: 0
+
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 190
+Process with pid = 3 has runtime = 10 and number_of_runs = 17 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4533
+Process with pid = 3 has runtime = 28 and number_of_runs = 45 
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 189
+Process with pid = 3 has runtime = 1 and number_of_runs = 8 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4607
+Process with pid = 3 has runtime = 10 and number_of_runs = 27 
+
+
+
+Assigning same priority to all processes:
+Before Benchmarking:
+Time to display stats of process with pid = 4 
+Running Priority based scheduler
+Total ticks till now: 468
+Process with pid = 4 has runtime = 2 and number_of_runs = 9 
+
+Benchmarking..
+Time to display stats of process with pid = 4 
+Running Priority based scheduler
+Total ticks till now: 3668
+Process with pid = 4 has runtime = 11 and number_of_runs = 28 
+
+
+TRY 4:
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 124
+Process with pid = 3 has runtime = 2 and number_of_runs = 9 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4610
+Process with pid = 3 has runtime = 13 and number_of_runs = 30 
+
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running First come first serve scheduler
+Total ticks till now: 145
+Process with pid = 3 has runtime = 1 and number_of_runs = 7 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running First come first serve scheduler
+Total ticks till now: 4511
+Process with pid = 3 has runtime = 13 and number_of_runs = 17 
+
+
+
+Reverse priority:
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 134
+Process with pid = 3 has runtime = 3 and number_of_runs = 10 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4079
+Process with pid = 3 has runtime = 11 and number_of_runs = 23 
+
+
+
+
+
+TRY 5:
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 132
+Process with pid = 3 has runtime = 2 and number_of_runs = 9 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4894
+Process with pid = 3 has runtime = 16 and number_of_runs = 33 
+
+
+
+
+Reverse Priority:
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 230
+Process with pid = 3 has runtime = 10 and number_of_runs = 17 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4411
+Process with pid = 3 has runtime = 36 and number_of_runs = 47 
+
+
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 123
+Process with pid = 3 has runtime = 1 and number_of_runs = 8 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4028
+Process with pid = 3 has runtime = 7 and number_of_runs = 24 
+
+MLFQ Try 2:
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Multi-level feedback queue scheduler
+Total ticks till now: 141
+Process with pid = 3 has runtime = 1 and number_of_runs = 7 
+Queue no=0
+The ticks received in each queue are:
+0: 1
+1: 0
+2: 0
+3: 0
+4: 0
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Multi-level feedback queue scheduler
+Total ticks till now: 3536
+Process with pid = 3 has runtime = 15 and number_of_runs = 20 
+Queue no=3
+The ticks received in each queue are:
+0: 2
+1: 2
+2: 4
+3: 8
+4: 0
+
+
+
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Round Robin (defautlt)
+Total ticks till now: 122
+Process with pid = 3 has runtime = 2 and number_of_runs = 9 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Round Robin (defautlt)
+Total ticks till now: 3499
+Process with pid = 3 has runtime = 11 and number_of_runs = 28 
+
+
+
+
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running First come first serve scheduler
+Total ticks till now: 153
+Process with pid = 3 has runtime = 0 and number_of_runs = 7 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running First come first serve scheduler
+Total ticks till now: 4727
+Process with pid = 3 has runtime = 15 and number_of_runs = 17 
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 166
+Process with pid = 3 has runtime = 5 and number_of_runs = 12 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 3381
+Process with pid = 3 has runtime = 14 and number_of_runs = 31 
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 181
+Process with pid = 3 has runtime = 1 and number_of_runs = 8 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 4657
+Process with pid = 3 has runtime = 6 and number_of_runs = 23 
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Before Benchmarking:
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 1428
+Process with pid = 3 has runtime = 10 and number_of_runs = 17 
+
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Total ticks till now: 5886
+Process with pid = 3 has runtime = 19 and number_of_runs = 31 
+$ QEMU: Terminated
+

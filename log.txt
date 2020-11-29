@@ -1,0 +1,159 @@
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Process with pid = 3 has runtime = 11 and number_of_runs = 28 
+Return value: 0
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Round Robin (defautlt)
+Process with pid = 3 has runtime = 12 and number_of_runs = 29 
+Return value: 0
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Process with pid = 3 has runtime = 5 and number_of_runs = 22 
+Return value: 0
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Multi-level feedback queue scheduler
+Process with pid = 3 has runtime = 16 and number_of_runs = 29 
+Queue no=0
+The ticks received in each queue are:
+0: 24
+1: 9
+2: 0
+3: 0
+4: 0
+Return value: 0
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Round Robin (defautlt)
+Process with pid = 3 has runtime = 9 and number_of_runs = 26 
+Return value: 0
+$ QEMU: Terminated
+
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Multi-level feedback queue scheduler
+Process with pid = 3 has runtime = 12 and number_of_runs = 20 
+Queue no=3
+The ticks received in each queue are:
+0: 1
+1: 2
+2: 4
+3: 5
+4: 0
+Return value: 0
+$ ps
+
+PID	Priority	State	r_time	w_time	n_run	cur_q	q0	q1	q2	q3	q4	Name
+1	-1			sleep 		3		0		23		1	3	0	0	0	0	init
+2	-1			sleep 		3		0		19		1	1	2	0	0	0	sh
+14	-1			run   		2		0		8		1	1	1	0	0	0	ps
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running First come first serve scheduler
+Process with pid = 3 has runtime = 15 and number_of_runs = 17 
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Priority based scheduler
+Process with pid = 3 has runtime = 12 and number_of_runs = 29 
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ be  bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Round Robin (defautlt)
+Process with pid = 3 has runtime = 11 and number_of_runs = 28 
+$ QEMU: Terminated
+xv6...
+cpu1: starting 1
+cpu0: starting 0
+sb: size 1000 nblocks 941 ninodes 200 nlog 30 logstart 2 inodestart 32 bmap start 58
+init: starting sh
+$ bench
+Benchmarking..
+Time to display stats of process with pid = 3 
+Running Multi-level feedback queue scheduler
+Process with pid = 3 has runtime = 10 and number_of_runs = 20 
+Queue no=3
+The ticks received in each queue are:
+0: 2
+1: 2
+2: 4
+3: 2
+4: 0
+$ QEMU: Terminated
+
