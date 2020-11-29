@@ -39,6 +39,7 @@ sysproc.c is just used to call waitx() which is present in proc.c. The sys_waitx
 To get the waiting time, and run time for some command for some command, say `ls`, run the following: 
 
 `> make clean; make qemu-nox`
+
 `$ time ls `
 
 #### ps (user program)
